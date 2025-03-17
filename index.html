@@ -6,9 +6,8 @@
 	<title>Portfolio Web Design</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300,400,500,600,700,800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./style.css">
-	<script src="./scripts.js"></script>
 	<link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
 </head>
 <body>
@@ -26,7 +25,7 @@
 					<a href="#skills">Skills</a>
 				</li>
 				<li>
-					<a href="#Work-Experience">Work-Experience</a>
+					<a href="#work-experience">Work Experience</a>
 				</li>
 				<li>
 					<a href="mailto:hello@adriantwarog.com" class="button">Contact Me</a>
@@ -47,7 +46,7 @@
 						Sipo Kupiso
 					</h1>
 					<p>
-						Software Developer in Gauteng SA who creates HTML, CSS and Javascript. <span>I'm interested in AI topics which is why I also add things like ChatGPT.</span>
+						Software Developer in Gauteng SA who creates HTML, CSS, and Javascript. <span>I'm interested in AI topics, which is why I also add things like ChatGPT.</span>
 					</p>
 					<div class="call-to-action">
 						<a href="./New_Cv_Updated_Sipo.pdf" class="button black">
@@ -124,7 +123,7 @@
 				<div class="right-column">
 					<h3>A bit about me</h3>
 					<p>
-						Hi I'm Sipho Kupiso, a Software developer who creates HTML websites, CSS and JavaScript.  I'm interested in AI and i would like to create better project soon using AI!
+						Hi, I'm Sipho Kupiso, a Software developer who creates HTML websites, CSS, and JavaScript.  I'm interested in AI, and I would like to create better projects soon using AI!
 					</p>
 					<p>
 						I'm currently working on a project that uses Azure AI to create a chatbot that can help answer questions about web development.  I'm also working on a project that uses React and Next.js to create a portfolio website design that looks good.
@@ -148,7 +147,7 @@
 						</div>
 					</figure>
 					<h3>ICT Intern</h3>
-					<div>July 2023 - July 204</div>
+					<div>July 2023 - July 2024</div> <!-- Fix date -->
 					<p>Developed and implemented code in languages such as C#, HTML, JavaScript.</p>
 				</article>
 				<article>
@@ -156,13 +155,13 @@
 						<div>
 							<img src="./imgs/tutor-image.jpg" alt="Workplace 2 - Software Development Tutor" width="100%" />
 							<figcaption>
-								Workplace - Turtoring Development Software
+								Workplace - Tutoring Development Software <!-- Fix typo -->
 							</figcaption>
 						</div>
 					</figure>
 					<h3>Development Software</h3>
 					<div>2022</div>
-					<p>Delivered lessons on computer literacy, programming basics, and software application to first year students. </p>
+					<p>Delivered lessons on computer literacy, programming basics, and software application to first-year students.</p>
 				</article>
 				<article>
 					<figure>
@@ -175,9 +174,8 @@
 					</figure>
 					<h3>Intern in Software Development</h3>
 					<div>2025 - Current</div>
-					<p>Software development involves designing, building, testing, and maintaining software applications. The responsibilities vary based on the role, but here are the core duties:.</p>
+					<p>Software development involves designing, building, testing, and maintaining software applications. The responsibilities vary based on the role, but here are the core duties:</p>
 				</article>
-				
 			</div>
 		</section>
 		<section class="chatbot container">
@@ -191,7 +189,7 @@
 				<div class="chat-info">
 					<h3>Azure AI Chatbot</h3>
 					<p>I've put together a chatbot here which knows all my skills, work experience and has a copy of my CV/Resume. You can use it to ask questions about me to get a better idea of who I am and what I've done.</p>
-					<p>You can also download my resume here if you want to take a look at it.  I'm currently looking for new opportunities so if you have a project you think I'd be a good fit for, please get in touch!</p>
+					<p>You can also download my resume here if you want to take a look at it. I'm currently looking for new opportunities, so if you have a project you think I'd be a good fit for, please get in touch!</p>
 					<a href="./New_Cv_Updated_Sipo.pdf" class="button black">Download Resume</a>
 				</div>
 				<div class="chat-box">
@@ -200,7 +198,7 @@
 							<li>
 								<span class="avatar bot">AI</span>
 								<div class="message">
-									Hi, I'm a friendly chatbot that lets you interactive with this portfolio and CV. How can I help?
+									Hi, I'm a friendly chatbot that lets you interact with this portfolio and CV. How can I help?
 								</div>
 							</li>
 							<li>
@@ -212,12 +210,15 @@
 						</ul>
 					</div>
 					<div class="chat-message">
-						<input type="text" placeholder="Hey Kupiso, what skills are you best at?">
-						<button class="button black">Send</button>
+						<input id="user-input" type="text" placeholder="Hey Kupiso, what skills are you best at?">
+						<button id="send-btn" class="button black">Send</button>
 					</div>
 				</div>
 			</div>
 		</section>
+		
 	</main>
+	<script src="./Script.js"></script>
+
 </body>
 </html>
